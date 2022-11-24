@@ -1,0 +1,20 @@
+{
+    "name": "n7/annotations-and-attributes-reader",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Gluhov",
+            "email": "nope7777@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "doctrine/annotations": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "N7\\AnnotationsAndAttributesReader\\": "src"
+        }
+    }
+}
